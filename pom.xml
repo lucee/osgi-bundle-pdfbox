@@ -119,8 +119,8 @@
             <Export-Package>*</Export-Package>
             <Require-Bundle>bouncycastle.mail;bundle-version="[1.38.0,1.38.0]",bouncycastle.prov;bundle-version="[1.38.0,1.38.0]",bouncycastle.tsp;bundle-version="[1.38.0,1.38.0]"</Require-Bundle>
             <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment> -->
-            <!-- <Import-Package>*</Import-Package> -->
-            <!-- <DynamicImport-Package>*</DynamicImport-Package> -->
+            <Import-Package>!com.ibm.icu.text,*</Import-Package>
+            <DynamicImport-Package>com.ibm.icu.text</DynamicImport-Package>
             <!-- <Fragment-Host></Fragment-Host> -->
           </instructions>
         </configuration>
